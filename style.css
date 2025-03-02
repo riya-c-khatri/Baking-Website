@@ -1,0 +1,43 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #faebeb;
+    text-align: center;
+    letter-spacing: 1px; 
+}
+
+/* Title / intro / picture of me */
+#hero {
+    background: #efcdcd;
+    padding: 50px 20px;
+    margin-bottom: 40px;
+}
+
+/* Image Styling */
+#hero img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Controls recipe block styling */
+#recipes {
+    padding: 40px 20px;
+    background-color: #faebeb;
+}
+
+/* Alignment */
+.recipes {
+    display: flex;
+    justify-content: center;
+}
+
+/* Desginated recipe "buttons" / links */
+.recipe a {
+    padding: 6px 12px;
+    background: #efcdcd;
+    color: #faebeb;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
